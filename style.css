@@ -1,0 +1,41 @@
+body {
+   margin: 0;
+   padding-top: 0px;
+   text-align: center;
+}
+#welcome {
+    background-color: #adbeae;
+}
+.menu {
+    list-style: none;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    margin-top: 0px;
+    z-index: 10;
+    cursor: pointer;
+
+}
+.link {
+    display: inline;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: Georgia;
+    font-size: 22px;
+}
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  #bio {
+    font-family: Roboto;
+    font-size: "20px";
+  } 
+  .link:hover {
+    font-size: 25px;
+    text-decoration: underline;
+
+  }
